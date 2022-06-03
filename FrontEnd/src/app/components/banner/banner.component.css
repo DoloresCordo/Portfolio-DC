@@ -1,0 +1,17 @@
+.banner {
+  height: 300px;
+  width: 100%;
+  margin-top: 10px;
+  border: 2.5px solid;
+  border-color: #cac3b8;
+  background-image: url(../../../assets/images.jpg)
+}
+ 
+
+@media (max-width: 768px) {
+  .banner {
+    height: 250px;
+    width: 100%;
+  }
+}  
+   

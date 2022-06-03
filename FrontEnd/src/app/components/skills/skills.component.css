@@ -1,0 +1,78 @@
+.container {
+    margin: 0 auto;
+    padding: 0;
+    text-align: center;
+}
+
+.row {
+    padding: 0 5%;
+    text-align: center;
+}
+
+h2 {
+    margin: 3% 0;
+    text-shadow: 1px 1px 2px #000000;
+}
+
+h4 {
+    margin: 5% 0;
+}
+
+.iconos {
+    padding: 4%;
+    position: relative;
+}
+
+
+.iconos .description-iconos {
+  display: none;
+  position: absolute;
+  left: 5%;
+  right: 5%;
+  
+}
+
+.iconos:hover .description-iconos {
+    display: block;
+}
+
+.progress {
+    background-color: #ddd7d9;
+    margin-top: 8%;
+    height: 20px;
+    border: 1px solid;
+    border-color: #bebcbc; 
+    position: relative;
+}
+
+.progress-bar {
+    color: #afa3a3;
+    opacity: 0.7;
+}
+
+.progress .progress-bar:hover {
+    color: #f3f0f094;
+    font-size: 1.3em;
+}
+
+
+@media (min-width: 992px) {
+    .row {--bs-gutter-x: 14rem;
+    }
+}
+
+@media (max-width: 991px) {
+    .row {--bs-gutter-x: 10rem;
+    }
+}
+
+@media (max-width: 768px) {
+    .row {--bs-gutter-x: 6rem;
+    }
+}
+
+
+@media (max-width: 680px) {
+    .row {--bs-gutter-x: 4rem;
+    }
+}

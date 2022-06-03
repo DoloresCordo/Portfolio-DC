@@ -1,0 +1,35 @@
+.navbar {
+    display: flex; 
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    height: 90px;
+    width: 100%;
+    background-color: #bebcbc;
+    border: 1.5px solid;
+    border-color: #cfc4b3;
+}
+
+#logo-ap {
+    width: 190px;
+}
+
+.navbar-nav{
+    margin-bottom: -2%;
+    float: right;
+    align-items: center;
+}
+
+.nav-item a:hover {
+    transform: scale(1.1); 
+}
+
+#github {
+    border-radius: 3px;
+}
+
+.btn {
+    margin-left: 20px;
+    border: 2.5px solid;
+}
+

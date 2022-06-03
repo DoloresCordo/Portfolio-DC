@@ -1,0 +1,43 @@
+.container-fluid {
+    margin: 0 auto;
+    padding: 0 10%;
+    text-align: center;
+}
+
+h2 {
+    margin-bottom: 3%;
+    text-shadow: 1px 1px 2px #000000;
+}
+
+.row {
+    border-bottom: 1px solid #bebcbc;
+}
+
+p {
+    text-align: left;
+}
+
+.img-fluid {
+    padding: 5%;
+}
+
+#logo-spacex {
+    margin-left: 7%;
+}
+
+.caserio {
+    margin-top:  5%;
+    font-family: fantasy;
+    color: #000000e5;
+}
+
+
+    
+.caserio p {
+    text-align: center;
+    font-size: 1.2em;
+}
+
+h4 {
+    margin-top:  5%;
+}
