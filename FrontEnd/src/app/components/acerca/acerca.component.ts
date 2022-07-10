@@ -6,10 +6,12 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./acerca.component.css']
 })
 export class AcercaComponent implements OnInit {
-
-  constructor() { }
+  persona: persona = new persona("","","");
+  
+  constructor(public personaService: PersonaService) { }
 
   ngOnInit(): void {
+    this.personaService.getPersona().subscribe(data => (this.persona = data))
   }
 
 }
