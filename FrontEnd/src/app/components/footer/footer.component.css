@@ -1,0 +1,18 @@
+.container-fluid {
+    width: 100%;
+    text-align: center;
+    font-family: cursive;
+}
+
+.row {
+    margin: 0 4%;
+    border-top: 1px solid #bebcbc;
+}
+h5 { 
+    padding: 1% 0;
+    color: #969087c4;
+}
+
+p {
+    color: #96908791;
+}
